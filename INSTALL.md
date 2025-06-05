@@ -1,19 +1,17 @@
-### [Foobar](https://foobar.com)
+### [ripgrep](https://github.com/BurntSushi/ripgrep)
 
-#### Install using Git
+#### Set up the theme
 
-If you are a git user, you can install the theme and keep up to date by cloning the repo:
+First, prepare ripgrep
+[to use a configuration file](https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md#configuration-file)
+unless it already is.
 
-```bash
-git clone https://github.com/dracula/foobar.git
+Then, add the following lines to the configuration file:
+
+```shell
+# https://draculatheme.com/ripgrep
+--colors=path:fg:0xbd,0x93,0xf9
+--colors=line:fg:0x50,0xfa,0x7b
+--colors=column:fg:0x50,0xfa,0x7b
+--colors=match:fg:0xff,0x55,0x55
 ```
-
-#### Install manually
-
-Download using the [GitHub `.zip` download](https://github.com/dracula/foobar/archive/main.zip) option and unzip them.
-
-#### Activating theme
-
-1. Do this;
-2. Then that;
-3. Boom! It's working ✨
